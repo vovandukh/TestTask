@@ -17,13 +17,10 @@ export class SliderComponent implements OnInit {
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
-      0: {
+      300: {
         items: 1
       },
-      400: {
-        items: 2
-      },
-      740: {
+      519: {
         items: 2
       },
       1440: {

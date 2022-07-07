@@ -1,4 +1,4 @@
-<header>
+<header class="header">
     <div class="container">
         <div class="logoWrapper">
             <img src="assets/images/Frame.png">
@@ -14,5 +14,18 @@
             </nav>
             <button class="orderButton">Заказать</button>
         </div>
+        <div class="navButton" (click)="openBurgerMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
 </header>
+<nav class="burgerNav">
+    <ul>
+        <li>Услуги</li>
+        <li>Портфолио</li>
+        <li>Этапы</li>
+        <li>Дизайнеры</li>
+    </ul>
+</nav>

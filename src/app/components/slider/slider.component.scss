@@ -53,6 +53,10 @@ section {
                 top: 8%;
                 left: 6%;
             }
+
+            @media screen and (max-width:768px) {
+                left: -3%;
+            }
         }
 
         .wave {
@@ -75,6 +79,10 @@ section {
             @media screen and (max-width:1440px) {
                 width: 120px;
                 height: 40px;
+            }
+
+            @media screen and (max-width:768px) {
+                display: none;
             }
         }
     }
@@ -131,6 +139,10 @@ section {
                         width: 100%;
                         font-size: 18px;
                     }
+
+                    @media screen and (max-width:768px) {
+                        font-size: 14px;
+                    }
                 }
 
                 p {
@@ -145,6 +157,17 @@ section {
                         line-height: 18px;
                         font-size: 16px;
                     }
+
+                    @media screen and (max-width:768px) {
+                        height: 140px;
+                        margin: 10px 0 0;
+                        line-height: 13px;
+                        font-size: 12px;
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    width: 90%;
                 }
             }
 
@@ -167,6 +190,13 @@ section {
                     img {
                         width: 180px;
                         height: 180px;
+                    }
+                }
+
+                @media screen and (max-width:768px) {
+                    img {
+                        width: 140px;
+                        height: 140px;
                     }
                 }
             }

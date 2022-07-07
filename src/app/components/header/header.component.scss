@@ -4,16 +4,20 @@ header {
     height: 95px;
     background: $primary_background ;
     padding: 18px 0;
-    display: flex;
-    justify-content: center;
 
     @media screen and (max-width:1440px) {
         height: 70px;
     }
 
+    @media screen and (max-width:576px) {
+        height: 50px;
+        padding: 10px 0;
+    }
+
     .container {
         height: 100%;
         width: 1170px;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -106,6 +110,63 @@ header {
                     height: 30px;
                 }
             }
+
+            @media screen and (max-width:768px) {
+                display: none;
+            }
+        }
+
+        .navButton {
+            display: none;
+
+            span {
+                display: inline-block;
+                width: 13px;
+                height: 13px;
+                border-radius: 50px;
+                background: #FFFFFF;
+                margin: 0 5px 0 0;
+            }
+
+            @media screen and (max-width:768px) {
+                display: block;
+            }
         }
     }
+
+}
+
+.burgerNav {
+    background: $primary_background;
+    height: 0;
+    overflow: hidden;
+
+    ul {
+        margin: 42px 0 49px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        li {
+            font-size: 17px;
+            font-family: $montserrat_800;
+            display: inline-block;
+            line-height: 27px;
+            margin: 0 0 30px;
+            color: #FFFFFF;
+
+            &:hover {
+                border-bottom: 2px solid #ffffff;
+            }
+        }
+
+    }
+
+    transition: height 0.6s ease-out;
+}
+
+.activeNav {
+    height: 330px;
+    transition: height 0.6s ease-in;
 }
