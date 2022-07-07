@@ -14,6 +14,10 @@ section {
             width: 80%;
         }
 
+        @media screen and (max-width:998px) {
+            width: 90%;
+        }
+
         h1 {
             font-family: $montserrat_800;
             font-size: 32px;
@@ -21,6 +25,10 @@ section {
 
             @media screen and (max-width:1440px) {
                 font-size: 26px;
+            }
+
+            @media screen and (max-width:998px) {
+                font-size: 24px;
             }
         }
 
@@ -39,6 +47,11 @@ section {
             @media screen and (max-width:1680px) {
                 width: 40px;
                 height: 40px;
+            }
+
+            @media screen and (max-width:998px) {
+                top: 8%;
+                left: 6%;
             }
         }
 
@@ -101,6 +114,10 @@ section {
                 align-items: center;
             }
 
+            @media screen and (max-width:998px) {
+                padding: 20px 0 0 15px;
+            }
+
             .textWrapper {
                 width: 300px;
 
@@ -143,6 +160,13 @@ section {
                     img {
                         width: 200px;
                         height: 200px;
+                    }
+                }
+
+                @media screen and (max-width:998px) {
+                    img {
+                        width: 180px;
+                        height: 180px;
                     }
                 }
             }

@@ -19,13 +19,17 @@ footer {
             justify-content: space-between;
         }
 
+        @media screen and (max-width: 998px) {
+            width: 90%;
+        }
+
         .logoSocialWrapper {
             .logo {
                 height: 66px;
                 width: 280px;
 
                 @media screen and (max-width: 1440px) {
-                    width: 180px;
+                    width: 160px;
                     height: 40px;
                 }
             }
@@ -41,6 +45,10 @@ footer {
 
                         @media screen and (max-width: 1440px) {
                             margin: 0 20px 0 0;
+                        }
+
+                        @media screen and (max-width: 998px) {
+                            margin: 0 15px 0 0;
                         }
                     }
 
@@ -73,12 +81,20 @@ footer {
                         @media screen and (max-width: 1440px) {
                             font-size: 18px;
                         }
+
+                        @media screen and (max-width: 998px) {
+                            font-size: 16px;
+                        }
+                    }
+
+                    @media screen and (max-width: 998px) {
+                        margin: 0 0 5px;
                     }
                 }
             }
 
             @media screen and (max-width: 1440px) {
-                margin: 22px 0 0 80px;
+                margin: 22px 0;
             }
         }
 
@@ -87,6 +103,9 @@ footer {
             color: #ffffff;
             font-family: $montserrat_400;
 
+            @media screen and (max-width: 1440px) {
+                margin: 22px 0;
+            }
         }
     }
 

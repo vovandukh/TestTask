@@ -48,6 +48,10 @@
             padding: 140px 0 180px;
         }
 
+        @media screen and (max-width:998px) {
+            padding: 100px 0 140px;
+        }
+
         .text {
             width: 60%;
 
@@ -59,6 +63,11 @@
                 @media screen and (max-width: 1440px) {
                     font-size: 28px;
                     line-height: 30px;
+                }
+
+                @media screen and (max-width: 998px) {
+                    font-size: 24px;
+                    line-height: 25px;
                 }
             }
 
@@ -72,6 +81,11 @@
                 @media screen and (max-width: 1440px) {
                     font-size: 14px;
                     line-height: 20px;
+                }
+
+                @media screen and (max-width: 998px) {
+                    margin: 15px 0 0 0;
+                    font-size: 13px;
                 }
             }
         }
@@ -88,6 +102,11 @@
                     width: 120px;
                     height: 50px;
                     bottom: 9%;
+                    left: 6%;
+                }
+
+                @media screen and (max-width:998px) {
+                    bottom: 3%;
                     left: 6%;
                 }
             }
@@ -125,6 +144,13 @@
                 @media screen and (max-width: 1440px) {
                     width: 547px;
                     height: 413px;
+                    right: 1%;
+                }
+
+                @media screen and (max-width: 998px) {
+                    top: 20%;
+                    width: 447px;
+                    height: 313px;
                     right: 1%;
                 }
             }
@@ -167,6 +193,10 @@
             @media screen and (max-width:1440px) {
                 font-size: 26px;
             }
+
+            @media screen and (max-width:998px) {
+                font-size: 24px;
+            }
         }
 
         .card_wrapper {
@@ -186,6 +216,10 @@
                     border-radius: 15px;
                     padding: 18px 44px;
                     overflow: hidden;
+
+                    @media screen and (max-width:998px) {
+                        font-size: 50px;
+                    }
 
                     .title_wrapper {
                         width: inherit;
@@ -282,7 +316,7 @@
             width: 133px;
             height: 148px;
             position: absolute;
-            top: 66%;
+            bottom: 20%;
             right: 7%;
 
             @media screen and (max-width: 1680px) {
@@ -294,6 +328,11 @@
             @media screen and (max-width: 1440px) {
                 height: 90px;
                 width: 80px;
+            }
+
+            @media screen and (max-width: 998px) {
+                bottom: 1% !important;
+                right: 8%;
             }
         }
     }
@@ -318,6 +357,11 @@
                 font-size: 28px;
 
             }
+
+            @media screen and (max-width: 998px) {
+                font-size: 26px;
+
+            }
         }
 
         .projectsWrapper {
@@ -338,6 +382,10 @@
 
                 @media screen and(max-width: 1440px) {
                     height: 347px;
+                }
+
+                @media screen and(max-width: 998px) {
+                    height: 280px;
                 }
 
 
@@ -401,6 +449,10 @@
             @media screen and(max-width: 1440px) {
                 width: 80px;
             }
+
+            @media screen and(max-width: 998px) {
+                top: 4%;
+            }
         }
 
         .circle {
@@ -416,7 +468,11 @@
 
             @media screen and(max-width: 1440px) {
                 width: 60px;
-                bottom: 20vw;
+            }
+
+            @media screen and(max-width: 998px) {
+                width: 50px;
+                bottom: 3%;
             }
         }
     }
@@ -444,6 +500,12 @@
             @media screen and (max-width:1440px) {
                 margin: 60px 0 0;
                 font-size: 28px;
+            }
+
+            @media screen and (max-width:998px) {
+                line-height: 30px;
+                margin: 40px 0 0;
+                font-size: 24px;
             }
         }
 
@@ -493,6 +555,12 @@
                 height: 40%;
             }
 
+            @media screen and (max-width:998px) {
+                margin-top: 10%;
+                width: 37%;
+                height: 37%;
+            }
+
         }
     }
 }
@@ -519,6 +587,12 @@
                 width: 240px;
                 left: 3%;
             }
+
+            @media screen and (max-width:998px) {
+                width: 170px;
+                left: 2%;
+                top: 2%;
+            }
         }
 
         .circle {
@@ -532,10 +606,17 @@
                 right: 15%;
             }
 
-            @media screen and (max-width:1680px) {
+            @media screen and (max-width:1440px) {
                 width: 40px;
                 height: 40px;
                 top: 37%;
+            }
+
+            @media screen and (max-width:998px) {
+                width: 40px;
+                height: 40px;
+                top: 85%;
+                right: 14%;
             }
         }
 
@@ -554,6 +635,13 @@
                 top: 28%;
                 right: 12%;
             }
+
+            @media screen and (max-width:998px) {
+                // width: 40px;
+                // height: 40px;
+                top: 75%;
+                right: 10%;
+            }
         }
 
         .formWrapper {
@@ -568,6 +656,10 @@
                 @media screen and (max-width:1440px) {
                     font-size: 28px;
                 }
+
+                @media screen and (max-width:998px) {
+                    font-size: 24px;
+                }
             }
 
             p {
@@ -579,6 +671,11 @@
                 @media screen and (max-width:1440px) {
                     font-size: 16px;
                     line-height: 28px;
+                }
+
+                @media screen and (max-width:998px) {
+                    font-size: 16px;
+                    line-height: 23px;
                 }
             }
 
@@ -616,6 +713,10 @@
 
     @media screen and (max-width:1440px) {
         width: 80%;
+    }
+
+    @media screen and (max-width:998px) {
+        width: 90%;
     }
 }
 
