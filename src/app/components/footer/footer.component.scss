@@ -42,6 +42,11 @@ footer {
                     width: 280px;
                     height: 60px;
                 }
+
+                // @media screen and (max-width: 568px) {
+                //     width: 280px;
+                //     height: 60px;
+                // }
             }
         }
 
@@ -124,6 +129,10 @@ footer {
 
             @media screen and (max-width: 768px) {
                 width: 50%;
+            }
+
+            @media screen and (max-width: 576px) {
+                width: 70%;
             }
         }
 

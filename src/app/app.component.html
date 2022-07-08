@@ -20,6 +20,8 @@
           <img src="assets/images/shape  cylinder.275.png" class="cylinder">
           <img src="assets/images/Cart.png" class="basket">
           <img src="assets/images/Layer 9 copy 3.png" class="wave">
+          <img src="assets/images/ill.png" class="background_sm">
+          <img src="assets/images/shape sphere.264.png" class="circle_sm">
         </div>
       </div>
     </div>
@@ -61,13 +63,15 @@
                 заказ/покупку
                 с минимумом действий.
               </p>
-              <p class="text">При адаптивной версии вся структура сайта автоматически подстраивается под различную
+              <p class="text text_sm_none">При адаптивной версии вся структура сайта автоматически подстраивается под
+                различную
                 ширину
                 экрана.
                 Для того, чтобы получить рабочий продукт не нужно писать все с нуля — достаточно лишь подправить CSS и
                 HTML.
               </p>
-              <p>Один URL избавляет нас от ненужных редиректов, и надобности пользователю запоминать адрес мобильной
+              <p class="text_sm_none">Один URL избавляет нас от ненужных редиректов, и надобности пользователю
+                запоминать адрес мобильной
                 версии.
               </p>
             </div>
@@ -116,10 +120,12 @@
             <div class="text_wrapper">
               <p class="text">Микро-анимация может изменить восприятие продукта, пользовательское поведение и повысить
                 конверсию. Небольшие, преимущественно функциональные анимации поддерживают пользователя: обеспечивают
-                визуальную обратную связь и более понятно отражают происходящие изменения. Микро-анимации способны
-                многое
-                объяснить без слов.
-                .</p>
+                визуальную обратную связь и более понятно отражают происходящие изменения.<span class="text_sm_none">
+                  Микро-анимации способны
+                  многое
+                  объяснить без слов.
+                </span>
+              </p>
             </div>
           </li>
         </ul>
@@ -131,7 +137,7 @@
   <section class="Layer_3">
     <div class="container">
       <h1>Примеры онлайн-магазинов</h1>
-      <div class="projectsWrapper">
+      <div class="projectsWrapper display_sm_none">
         <div class="projectsItemWrapper">
           <img src="assets/images/two-miniature-green-blue-shopping-cart-yellow-background 1.png">
           <div class="mask">
@@ -175,6 +181,60 @@
           </div>
         </div>
       </div>
+      <div class="projectsWrapper display_sm_block">
+
+        <owl-carousel-o [options]="customOptions">
+          <ng-template carouselSlide>
+            <div class="wrapper">
+              <div class="projectsItemWrapper">
+                <img src="assets/images/two-miniature-green-blue-shopping-cart-yellow-background 1.png">
+                <div class="mask">
+                  <span class="title">Онлайн-магазин</span>
+                  <span class="title_1">для оптовых покупок</span>
+                </div>
+              </div>
+              <div class="projectsItemWrapper">
+                <img src="assets/images/baby-s-breath-flower-bottom-purple-backdrop.png">
+                <div class="mask">
+                  <span class="title">Онлайн-магазин</span>
+                  <span class="title_1">для флористов</span>
+                </div>
+              </div>
+              <div class="projectsItemWrapper">
+                <img src="assets/images/close-up-of-hair-dryer-and-brush 1.png">
+                <div class="mask">
+                  <span class="title">Онлайн-магазин</span>
+                  <span class="title_1">для парикмахеров</span>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+
+            <div class="projectsItemWrapper">
+              <img src="assets/images/pexels-shiny-diamond-3373739.png">
+              <div class="mask">
+                <span class="title">Онлайн-магазин</span>
+                <span class="title_1">для визажистов</span>
+              </div>
+            </div>
+            <div class="projectsItemWrapper">
+              <img src="assets/images/deva-williamson-ygTzbTHgDnY-unsplash.png">
+              <div class="mask">
+                <span class="title">Онлайн-магазин</span>
+                <span class="title_1">для кондитеров</span>
+              </div>
+            </div>
+            <div class="projectsItemWrapper">
+              <img src="assets/images/color-palette-catalogue-scheme-roller 1.png">
+              <div class="mask">
+                <span class="title">Онлайн-магазин</span>
+                <span class="title_1">для художников</span>
+              </div>
+            </div>
+          </ng-template>
+        </owl-carousel-o>
+      </div>
       <img class="wave" src="assets/images/shape wave.242.png">
       <img class="circle" src="assets/images/shape sphere.269.png">
     </div>
@@ -183,6 +243,7 @@
     <div class="container">
       <div class="textWrapper">
         <h1>Необходимо больше информации?</h1>
+        <img class="image_md" src="assets/images/Orders.png">
         <p>Если Вы владелец онлайн-магазина или только начинаете свой путь в электронной коммерции и вам нужен
           уникальный
           дизайн онлайн магазина для стартапа, обратитесь к нашему веб дизайнеру. За выгодную цену и короткий период
@@ -191,17 +252,6 @@
       </div>
       <img class="order" src="assets/images/Orders.png">
       <img src="assets/images/shape sphere.267.png" class="circle" />
-    </div>
-  </section>
-  <section class="Layer_4_md">
-    <div class="container">
-      <h1>Необходимо больше информации?</h1>
-      <img class="order" src="assets/images/Orders.png">
-      <p>Если Вы владелец онлайн-магазина или только начинаете свой путь в электронной коммерции и вам нужен
-        уникальный
-        дизайн онлайн магазина для стартапа, обратитесь к нашему веб дизайнеру. За выгодную цену и короткий период
-        времени, он поможет визуализировать ваш веб проект.</p>
-      <button>Оставить заявку</button>
     </div>
   </section>
   <section class="Layer_5">
@@ -213,10 +263,12 @@
         <div class="formWrapper">
           <h1>Обсудить проект</h1>
           <p>Расскажите о своих бизнес-целях и мы поможем вам в их достижении</p>
-          <form>
-            <input type="text" placeholder="Имя">
-            <input type="text" placeholder="Telegram/Viber">
-            <input type="text" placeholder="Email">
+          <form (change)="changeForm()">
+            <input type="text" placeholder="Имя" [(ngModel)]="name" [ngModelOptions]="{standalone: true}" name="name">
+            <input type="text" placeholder="Telegram/Viber" [(ngModel)]="phone" [ngModelOptions]="{standalone: true}"
+              name="phone">
+            <input type="text" placeholder="Email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}"
+              name="email">
           </form>
           <button>Отправить</button>
         </div>
